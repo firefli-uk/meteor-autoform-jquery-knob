@@ -7,8 +7,9 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom("METEOR@1.0");
-  api.use(["coffeescript", "templating", "reactive-var", "aldeed:autoform"], "client");
+  api.use(["jquery", "coffeescript", "templating", "aldeed:autoform"], "client");
   api.addFiles([
+  "lib/jQuery-Knob/js/jquery.knob.js",
   "afKnob.html",
   "afKnob.coffee"
   ], "client");
