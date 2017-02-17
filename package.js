@@ -1,7 +1,7 @@
 Package.describe({
-  name: "jameslefrere:autoform-jquery-knob",
+  name: "firefli:autoform-jquery-knob",
   summary: "jQuery Knob input type for Autoform",
-  git: "https://github.com/jameslefrere/meteor-autoform-jquery-knob.git",
+  git: "https://github.com/firefli-uk/meteor-autoform-jquery-knob.git",
   version: "0.1.0"
 });
 
